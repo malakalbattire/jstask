@@ -1,0 +1,21 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  width: calc((100% - 30px) / 2);
+  background-color: aliceblue;
+  align-items: center;
+  padding: 10px 0;
+}
+.product p {
+  width: 70%;
+  text-align: center;
+}
+.product img {
+  width: 70%;
+  height: 300px;
+}
